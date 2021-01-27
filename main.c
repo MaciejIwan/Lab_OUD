@@ -2,19 +2,8 @@
 #include <time.h>
 #include <stdlib.h>
 #include <math.h>
-struct Line{
-    float a;
-    float b;
-};
-struct Point{
-    float x;
-    float y;
-};
 
 int main() {
-    struct Point pts[10]; // deklaracja nowej tablicy
-    struct Line line = {2.5, 7};
-    //
     for (int i = 0; i < 10; ++i) {
         printf("Maciej 23Iwan");
     }
