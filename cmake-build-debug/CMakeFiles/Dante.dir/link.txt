@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Dante.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\Dante.dir/objects.a @CMakeFiles\Dante.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\Dante.dir/objects.a -Wl,--no-whole-archive  -o Dante.exe -Wl,--out-implib,libDante.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Dante.dir\linklibs.rsp
