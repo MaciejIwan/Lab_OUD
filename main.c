@@ -16,9 +16,7 @@ int main() {
     struct Line line = {2.5, 7};
     //
     for (int i = 0; i < 10; ++i) {
-        pts[i].x = i;
-        pts[i].y = line.a * i + line.b;
-        printf("%f %f \n", pts[i].x, pts[i].y);
+        printf("Maciej 23Iwan");
     }
 
     return 0;
